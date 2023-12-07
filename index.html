@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>موقع التشفير وفك التشفير</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <textarea id="textInput" placeholder="أدخل النص هنا للتشفير أو النص المشفر لفك التشفير"></textarea>
+        <div class="buttons">
+            <button onclick="encrypt()">تشفير</button>
+            <button onclick="decrypt()">فك التشفير</button>
+            <button onclick="copyText()">نسخ</button>
+        </div>
+        <textarea id="outputText" placeholder="النتيجة ستظهر هنا"></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
